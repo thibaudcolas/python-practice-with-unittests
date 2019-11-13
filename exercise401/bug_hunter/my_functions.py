@@ -1,4 +1,3 @@
-
 def boxes_required(qty, box_capacity=6):
     """
     Calculate how many egg boxes will be required for a given quatity of eggs.
@@ -7,3 +6,4 @@ def boxes_required(qty, box_capacity=6):
     :return: The number of boxes that are required
     """
     return int(qty / box_capacity) + 1
+    # return qty % box_capacity + 1

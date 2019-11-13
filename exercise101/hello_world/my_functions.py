@@ -1,10 +1,9 @@
-
 def hello(name):
-    pass
+    print("Hello, {}".format(name))
 
 
 def ask_for_name():
-    pass
+    return input("What is your name?")
 
 
 def main():
@@ -12,5 +11,5 @@ def main():
     hello(txt)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
